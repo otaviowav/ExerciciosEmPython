@@ -17,5 +17,5 @@ descontoVariavel = valorTotal * (0.01 * qtdMercadoria)
 total = valorTotal - (valorDesconto + descontoVariavel)
 
 # Saída
-print(f'{valorTotal:.2f}')
-print(f'{total:.2f}')
+print(f'{valorTotal:.2f}') # Saída indicando o valor total sem o desconto
+print(f'{total:.2f}') # Saída indicando o valor final com o desconto aplicado
