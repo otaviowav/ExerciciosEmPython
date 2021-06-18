@@ -7,11 +7,9 @@ A entrada é composta por duas linhas, a primeira conterá uma string que corres
 
 Saída
 Uma string que indica o dia que o usuário receberá sua compra. Caso o usuário receba no mesmo dia, deverá ser exibida a string 'chega hoje!', sem apóstrofos. Caso o usuário receba em algum dos seis dias posteriores à compra, deverá ser exibida a string 'sera entregue ', em que  será o dia correspondente, também sem apóstrofos e sem acentuação.
-
 """
 
-
-diaSemana = str(input())
+diaSemana = str(input()) 
 prazoEntrega = int(input())
 
 if prazoEntrega == 0:

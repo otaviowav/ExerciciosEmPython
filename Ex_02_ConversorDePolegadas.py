@@ -9,6 +9,6 @@ Saída
 Um número real, com três casas decimais, representando a conversão das polegadas da entrada em centímetros.
 """
 
-polegada = float(input()) # Entrada de um valor real
-cm = polegada * 2.54 #Calculo de conversão para centimetros
-print (f'{cm:.3f}') #Saída 
+polegada = float(input()) 
+cm = polegada * 2.54 
+print (f'{cm:.3f}') 
