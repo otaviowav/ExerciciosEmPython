@@ -51,4 +51,18 @@
 #### Saída
 * Uma string que indica o dia que o usuário receberá sua compra. Caso o usuário receba no mesmo dia, deverá ser exibida a string 'chega hoje!', sem apóstrofos. Caso o usuário receba em algum dos seis dias posteriores à compra, deverá ser exibida a string 'sera entregue <dia>', em que <dia> será o dia correspondente, também sem apóstrofos e sem acentuação.
  
- ##
+##
+ 
+#### Exercicio 05 - Quanto tempo?
+ 
+###### Programa criado para receber como entrada os tempos dos três percursos (de casa até o primeiro emprego, do primeiro emprego até o segundo e do segundo até a casa) e exibe o tempo total consumido.
+
+###### Não se esqueça que os três tempos serão dados em minutos.
+
+#### Entrada
+* Três números inteiros, um por linha, representando os tempos (em minutos) gastos em seus percursos.
+
+#### Saída
+* O tempo total gasto seguido por um espaço em branco e pela palavra "minutos", sem aspas e em minúsculo.
+ 
+##
