@@ -22,3 +22,18 @@
 
 #### Saída
 * Um número real, com três casas decimais, representando a conversão das polegadas da entrada em centímetros.
+
+## 
+
+#### Exercicio 03 - Jogo do par ou ímpar
+
+###### O objetivo é criar um programa para automatizar uma resposta, recebendo como entrada um número natural maior ou igual a dois e exibindo o ímpar anterior e o par posterior.
+
+#### Entrada
+
+* Um número natural maior ou igual a dois.
+
+#### Saída
+
+* Dois números naturais, separados por um espaço, em que o primeiro é o número ímpar que antecede o valor dado na entrada e o segundo é o par que sucede o valor dado na entrada.
+
