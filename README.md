@@ -3,7 +3,7 @@
 
 #### Exercicio 01 - Comprando com desconto
 
-###### Criar um prograsma para receber como entrada um número real, indicando o preço da mercadoria comprada, e um número inteiro indicando a quantidade de mercadoria comprada, após isto, ele exibirá o valor da compra antes do desconto e o valor final, já com o desconto aplicado.
+###### Criar um programa para receber como entrada um número real, indicando o preço da mercadoria comprada, e um número inteiro indicando a quantidade de mercadoria comprada, após isto, ele exibirá o valor da compra antes do desconto e o valor final, já com o desconto aplicado.
 
 #### Entrada:
 * Um número real positivo na primeira linha, indicando o preço da mercadoria, e um número inteiro positivo na segunda linha, indicando a quantidade comprada da mercadoria.
