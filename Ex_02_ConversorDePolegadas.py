@@ -1,14 +1,18 @@
 """ 
-Exercicio 02 - Conversor der Polegadas
-O objetivo deste exercicio é construir um programa que receba como entrada um número real, simbolizando uma quantidade de polegadas, e exiba o equivalente em centímetros. Lembrando que uma polegada equivale a 2,54 cm.
+Megan quer comprar um novíssimo smartphone e está muito empolgada com as possibilidades que uma tela de tantas polegadas pode oferecer para seu entretenimento. Mas há um problema, Megan percebeu que não sabe lidar com polegadas, afinal sempre realizou cálculos usando centímetros e gostaria de se basear nessa unidade de medida para imaginar o tamanho de tela que comprará. Você pode ajudar Megan?
+
+Seu trabalho é construir um programa que receba como entrada um número real, simbolizando uma quantidade de polegadas, e exiba o equivalente em centímetros. Lembre-se que uma polegada equivale a 2,54 cm.
 
 Entrada:
 Um número real representando as polegadas.
 
-Saída
+Saída:
 Um número real, com três casas decimais, representando a conversão das polegadas da entrada em centímetros.
 """
+# Resolução
 
-polegada = float(input()) 
-cm = polegada * 2.54 
-print (f'{cm:.3f}') 
+polegada = float(input()) # Solicitando um número real representando as polegadas.
+
+cm = polegada * 2.54 # Realizando a conversão
+
+print (f'{cm:.3f}') # Saída
