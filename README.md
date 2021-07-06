@@ -23,7 +23,15 @@ Você criará um programa que receberá como entradas um número real, indicando
 Um número real positivo na primeira linha, indicando o preço da mercadoria, e um número inteiro positivo na segunda linha, indicando a quantidade comprada da mercadoria.
 
 ### **Saída:**<br>
-Na primeira linha deve ser impresso um valor real com duas casas decimais, indicando o preço da compra sem o desconto e, na segunda linha, o preço final com o desconto aplicado, também com duas casas decimais.<br><br>
+Na primeira linha deve ser impresso um valor real com duas casas decimais, indicando o preço da compra sem o desconto e, na segunda linha, o preço final com o desconto aplicado, também com duas casas decimais.<br>
+
+Exemplo Input     |Exemplo Output
+:-----------------|:-----------------
+1.00<br>40        |40.00<br>20.00
+100.00<br>10      |1000.00<br>800.00
+1000.00<br>5      |5000.00<br>4250.00
+2608542.45<br>39  |101733155.55<br>51883909.33
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
@@ -38,7 +46,15 @@ Seu trabalho é construir um programa que receba como entrada um número real, s
 Um número real representando as polegadas.
 
 ### **Saída:**<br>
-Um número real, com três casas decimais, representando a conversão das polegadas da entrada em centímetros.<br><br>
+Um número real, com três casas decimais, representando a conversão das polegadas da entrada em centímetros.<br>
+
+Exemplo Input     |Exemplo Output
+:-----------------|:-----------------
+10.0              |25.400
+6809332.23761114  |17295703.884
+2.0               |5.080
+1.0               |2.540
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
@@ -53,7 +69,15 @@ Você é um programador que gosta de desafios, afinal todo programador encara de
 Um número natural maior ou igual a dois.
 
 ### **Saída:**<br>
-Dois números naturais, separados por um espaço, em que o primeiro é o número ímpar que antecede o valor dado na entrada e o segundo é o par que sucede o valor dado na entrada.<br><br>
+Dois números naturais, separados por um espaço, em que o primeiro é o número ímpar que antecede o valor dado na entrada e o segundo é o par que sucede o valor dado na entrada.<br>
+
+Exemplo Input |Exemplo Output
+:-------------|:-------------
+2             |1 4
+55            |53 56
+100           |99 102
+88            |87 90
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
@@ -74,7 +98,15 @@ Note que um prazo de zero dias significa que a entrega será concluída no mesmo
 A entrada é composta por duas linhas, a primeira conterá uma string que corresponde a um dia da semana, que poderá ser qualquer um destes: ('domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta' ou 'sabado'), sem acentuação e sem os apóstrofos, que representa o dia em que o cliente realizou a compra; a segunda linha contém um número natural entre 0 e 6 (inclusive os extremos), que indica o prazo que o cliente deve esperar até receber sua compra.
 
 ### **Saída:**<br>
-Uma string que indica o dia que o usuário receberá sua compra. Caso o usuário receba no mesmo dia, deverá ser exibida a string 'chega hoje!', sem apóstrofos. Caso o usuário receba em algum dos seis dias posteriores à compra, deverá ser exibida a string 'sera entregue "dia"', em que "dia" será o dia correspondente, também sem apóstrofos e sem acentuação.<br><br>
+Uma string que indica o dia que o usuário receberá sua compra. Caso o usuário receba no mesmo dia, deverá ser exibida a string 'chega hoje!', sem apóstrofos. Caso o usuário receba em algum dos seis dias posteriores à compra, deverá ser exibida a string 'sera entregue "dia"', em que "dia" será o dia correspondente, também sem apóstrofos e sem acentuação.<br>
+
+Exemplo Input |Exemplo Output
+:-------------|:-------------
+terca<br>5    |sera entregue domingo
+sabado<br>6   |sera entregue sexta
+terca<br>0    |chega hoje!
+quinta<br>5   |sera entregue terca
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
@@ -93,7 +125,15 @@ Não se esqueça que os três tempos serão dados em minutos.
 Três números inteiros, um por linha, representando os tempos (em minutos) gastos por Julius em seus percursos.
 
 ### **Saída:**<br>
-O tempo total gasto por Julius seguido por um espaço em branco e pela palavra "minutos", sem aspas e em minúsculo, conforme exemplos.<br><br>
+O tempo total gasto por Julius seguido por um espaço em branco e pela palavra "minutos", sem aspas e em minúsculo, conforme exemplos.<br>
+
+Exemplo Input     |Exemplo Output
+:-----------------|:-----------------
+275<br>245<br>212 |732 minutos
+116<br>110<br>288 |514 minutos
+211<br>81<br>27   |319 minutos
+40<br>10<br>30    |87 90
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
@@ -118,7 +158,17 @@ c) **Reprovado:** se a média final for menor do que seis e não existir possibi
 Dois números reais que podem variar de 0.00 à 10.00, um por linha, que representam a nota de trabalhos e a nota da prova regular, respectivamente.
 
 ### **Saída:**<br>
-Uma frase indicando a situação do aluno a quem pertencem as notas da entrada. A situação pode ser 'aprovado', 'reprovado' ou 'talvez com a sub', sem os apóstrofos e completamente em minúsculo. Veja nos exemplos como a saída deve ser exibida.<br><br>
+Uma frase indicando a situação do aluno a quem pertencem as notas da entrada. A situação pode ser 'aprovado', 'reprovado' ou 'talvez com a sub', sem os apóstrofos e completamente em minúsculo. Veja nos exemplos como a saída deve ser exibida.<br>
+
+Exemplo Input |Exemplo Output
+:-------------|:-------------
+6.00<br>6.00  |aprovado
+5.95<br>7.34  |aprovado
+10.00<br>0.00 |talvez com a sub
+0.00<br>10.00 |reprovado
+4.65<br>4.54  |talvez com a sub
+1.99<br>0.00  |reprovado
+
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
