@@ -1,4 +1,4 @@
-## <a id="anchortextTopo"/>ExerciciosEmPython
+## <a id="anchortextTopo"/>ExerciciosEmPython<img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 Repositório criado para realização de exercícios práticos na linguagem Python.
 
 Neste documento encontra-se os enunciados para estudo, as resoluções encontram-se dentro do arquivo .py de cada exercicio proposto.
