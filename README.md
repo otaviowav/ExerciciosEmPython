@@ -11,6 +11,7 @@ Neste documento encontra-se os enunciados para estudo, as resoluções encontram
 [Exercício 05](#anchortext05)<br>
 [Exercício 06](#anchortext06)<br>
 [Exercício 07](#anchortext07)<br>
+[Exercício 08](#anchortext08)<br>
 
 ## <a id="anchortext01"/>Exercicio 01 - Comprando com desconto
 
@@ -201,3 +202,24 @@ Exemplo Input          |Exemplo Output
 [Voltar ao topo](#anchortextTopo)<br>
 
 #
+
+## <a id="anchortext08"/>Exercicio 08 - Doação
+
+Ao perceber que um de seus amigos estava com dificuldades financeiras, Victória, uma garota muito inteligente, decidiu ajudá-lo com uma "vaquinha digital", em que todos poderiam doar quanto pudessem para ajudar seu amigo.<br>
+Para isso, Victória criou uma criptomoeda, a Vic Coin, em que cada unidade equivale à R$ 2,50. Assim, as pessoas que doarão primeiro compram a criptomoeda e, em seguida, depositam uma parte delas para doação. A parte que não foi doada pode ficar guardada em uma carteira digital e poderá ser usada no futuro para outras doações. Genial!<br>
+Victória está ocupada implementando o que é necessário para o funcionamento do ambiente de doações, por isso pediu para que você a ajudasse com uma das partes essenciais: a contabilização de doações e a conversão para reais.<br>
+Seu papel é criar um programa que receba como entrada diversas doações feitas em Vic Coin e, ao final, exiba o total em Vic Coin (VC$) e o total convertido para reais (R$).
+
+### **Entrada:**<br>
+Diversos números reais, um por linha, que representam os valores das doações feitas em Vic Coin. A entrada será finalizada com o valor de doação -1.0 que não deverá ser contabilizado na soma das doações.
+
+### **Saída:**<br>
+Duas linhas. A primeira linha será um valor real com duas casas decimais indicando o total doado em Vic Coin (VC$); a segunda linha será um valor real com duas casas decimais que indica o total doado em reais (R$). Veja nos exemplos o formato de saída.
+
+Exemplo Input |Exemplo Output
+:-------------|:-------------
+1.0<br>-1.0   |VC$ 1.00<br>R$ 2.50
+-1.0          |VC$ 0.00<br>R$ 0.00
+5.0<br>15.0<br>10.0<br>-1.0 |VC$ 30.00<br>R$ 75.00
+
+[Voltar ao topo](#anchortextTopo)<br>
