@@ -10,6 +10,7 @@ Neste documento encontra-se os enunciados para estudo, as resoluções encontram
 [Exercício 04](#anchortext04)<br>
 [Exercício 05](#anchortext05)<br>
 [Exercício 06](#anchortext06)<br>
+[Exercício 07](#anchortext07)<br>
 
 ## <a id="anchortext01"/>Exercicio 01 - Comprando com desconto
 
