@@ -225,4 +225,4 @@ Exemplo Input |Exemplo Output
 -1.0          |VC$ 0.00<br>R$ 0.00
 5.0<br>15.0<br>10.0<br>-1.0 |VC$ 30.00<br>R$ 75.00
 
-[Voltar ao topo](#anchortextTopo)<br>
+[Voltar ao topo](#anchortextTopo)<br> 
